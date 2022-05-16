@@ -18,7 +18,6 @@ findspark.find()
 
 
 from pyspark.sql import SparkSession
-from sqlalchemy import create_engine
 from pyspark.sql import functions
 from pyspark.sql.functions import col, desc
 from pyspark.sql.functions import rank, count
